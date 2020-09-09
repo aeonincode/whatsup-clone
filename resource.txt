@@ -1,6 +1,23 @@
+Links:
+
 https://github.com/WebDevSimplified/Whatsapp-Clone
 
 commands:
 /whatsup-clone/client (master)$ npm i react-bootstrap bootstrap
 
+/whatsup-clone/client (master)$ npm i uuid
+
+
+
+============
+https://stackoverflow.com/questions/12452042/git-error-src-refspec-master-does-not-match-any-error-failed-to-push-some-refs
+
+One classic root cause for this message is:
+
+when the repo has been initialized (git init lis4368/assignments),
+but no commit has ever been made
+Ie, if you don't have added and committed at least once, there won't be a local master branch to push to.
+
+Try git commit -m "first commit" and then try git push -u origin master again.
+============
 
